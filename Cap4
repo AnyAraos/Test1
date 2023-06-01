@@ -1,0 +1,198 @@
+4
+One-Sector Models of Endogenous Growth In the Ramsey model, as in the Solow–Swan model, the steady-state per capita growth rate equals the rate of technological progress, x, which is assumed to be exogenous. Thus, although these models provide interesting frameworks for studying transitional dynamics, they are not helpful for understanding the sources of long-term growth of income per capita.
+
+We mentioned in chapter 1 that one way to construct a theory of endogenous growth is to eliminate the long-run tendency for capital to experience diminishing returns. We discussed as a simple example the AK model, in which the returns to capital are always constant, and we considered technologies in which the returns to capital diminished but asymptotically approached a positive constant.
+
+We begin our analysis in this chapter by combining the AK technology with optimizing behavior of households and f i rms. This framework generates endogenous growth, and the outcomes are Pareto optimal as in the Ramsey model. One diff i culty, however, is that this kind of model is inconsistent with the empirical evidence on convergence.
+
+One interpretation of the AK model is that capital should be viewed broadly to include physical and human capital. In section 4.2 we work out a simple model with human capital that makes this interpretation explicit.
+
+We noted in chapter 1 that a constant-returns production function at the aggregate level can ref l ect learning by doing and spillovers of knowledge. This kind of technology may support endogenous growth, but the outcomes tend not to be Pareto optimal because the spillovers constitute a form of externality. Hence, these models may have implications for desirable government policy. We also examine models with governmentally provided public goods and show that they have analogous implications for growth and government policy.
+
+At the end of the chapter, we analyze transitional dynamics in models with optimizing agents when the technology features returns to capital that diminish but asymptotically approach a positive constant. These models can combine the endogenous-growth features of AK models with the convergence behavior found in the Ramsey model. Thus the empirical evidence on convergence may be consistent with these kinds of endogenous-growth models.
+
+4.1 The AK Model 4.1.1 Behavior of Households We use the setup from chapter 2 in which inf i nite-lived households maximize utility, as given by U = ?
+
+∞ 0 e−(ρ−n)t· ?c(1−θ) − 1 (1 − θ) ?
+
+dt (4.1) 206 Chapter 4 subject to the constraint ˙ a = (r − n) · a + w − c (4.2) where a is assets per person, r is the interest rate, w is the wage rate, and n is the growth rate of population. We again impose the constraint that rules out chain-letter debt f i nance:
+
+t 0 [r(v) − n] dv ??
+
+lim t→∞ ?
+
+a(t) · exp ?
+
+− ?
+
+≥ 0 (4.3) The conditions for optimization are again ˙ c/c = (1/θ) · (r − ρ) (4.4) and the transversality condition, lim t→∞ ?
+
+t 0 [r(v) − n] dv ??
+
+a(t) · exp ?
+
+− ?
+
+= 0 (4.5) 4.1.2 Behavior of Firms The only departure from chapter 2 is that f i rms have the linear production function, y = f (k) = Ak (4.6) where A > 0. Equation (4.6) differs from the neoclassical production function in that the marginal product of capital is not diminishing ( f ??= 0), and the Inada conditions are vio-lated,inparticular, f ?(k) = A ask goestozeroorinf i nity.Thechapterappendix(section4.7) shows more generally that the violation of the Inada condition limk→∞[ f ?(k)] = 0 is the key element that underlies endogenous growth.
+
+We noted in chapter 1 that the global absence of diminishing returns to capital in equa-tion (4.6) may seem unrealistic, but the idea becomes more plausible if we construe capital, K, broadly to encompass human capital, knowledge, public infrastructure, and so on.
+
+Subsequent sections of this chapter explore these interpretations in more detail.
+
+The conditions for prof i t maximization again require the marginal product of capital to equal the rental price, R = r + δ. The only difference here is that the marginal product of capital is the constant A; hence, r = A − δ (4.7) Since the marginal product of labor is zero, the wage rate, w, is zero. (We can think of this zero wage rate as applying to raw labor, which has not been augmented by human capital.) One-Sector Models of Endogenous Growth 207 4.1.3 Equilibrium We assume, as in chapter 2, that the economy is closed, so that a = k holds. If we substitute a = k, r = A − δ, and w = 0 into equations (4.2), (4.4), and (4.5), we get ˙k = (A − δ − n) · k − c (4.8) ˙ c/c = (1/θ) · (A − δ − ρ) (4.9) lim t→∞ ?k(t) · e−(A−δ−n)·t?
+
+= 0 (4.10) The striking aspect of equation (4.9) is that consumption growth does not depend on the stock of capital per person, k. In other words, if the level of consumption per capita at time 0 is c(0), consumption per capita at time t is given by c(t) = c(0) · e(1/θ)·(A−δ−ρ)·t (4.11) where the initial level of consumption, c(0), remains to be determined.
+
+We assume that the production function is suff i ciently productive to ensure growth in c, but not so productive as to yield unbounded utility:
+
+A > ρ + δ > (A − δ) · (1 − θ) + θn + δ (4.12) The f i rst part of this condition implies ˙ c/c > 0. The second part, which is analogous to ρ + θx > x + n in the model of chapter 2, ensures that the attainable utility is bounded1 and that the transversality condition holds.
+
+To compute the growth rate of capital and output per worker, divide equation (4.8) by k to get c/k = (A − δ − n) −˙k/k In the steady state (where, by def i nition, all variables grow at constant rates), the growth rate of capital per person is constant. Therefore, the right-hand side of the expression for c/k is constant. Consequently, c/k is constant, and the growth rate of capital per person (and, hence, the growth rate of output per person, y) equals the growth rate of consumption 1. To verify this result, substitute for c(t) from equation (4.11) into the utility function to get U = [1/(1 − θ)] · ?
+
+∞ 0 e−(ρ−n)·t· ?
+
+c(0)1−θ· e[(1−θ)/θ]·(A−δ−ρ)·t− 1?dt This integral converges to inf i nity unless ρ − n > [(1 − θ)/θ] · (A − δ − ρ). Add δ to both sides and rearrange this expression to get the second inequality in equation (4.12). An alternative way to write this expression is (A − δ − n) > γ , where γ is the growth rate of per capita consumption, given by equation (4.9). The appendix on mathematics considers some cases in which unbounded utility can be handled.
+
+208 Chapter 4 per capita, which is given by equation (4.9). Note that this argument works only at the steady state: in principle, the growth rate of capital outside the steady state might not be constant.
+
+If that were the case, the ratio c/k would not be constant. Having said this, however, we now show that, in fact, consumption and capital (and, therefore, output) grow at the same rate at all times. In other words, the model has no transitional dynamics.
+
+4.1.4 Transitional Dynamics To compute the growth rate of capital outside of the steady state, we start by substituting for c(t) from equation (4.11) into equation (4.8) to get ˙k = (A − δ − n) · k − c(0) · e(1/θ)·(A−δ−ρ)·t which is a f i rst-order, linear differential equation in k. The general solution of this equa-tion is2 k(t) = (constant) · e(A−δ−n)·t+ [c(0)/ϕ] · e(1/θ)·(A−δ−ρ)·t (4.13) where ϕ ≡ (A − δ) · (θ − 1)/θ + ρ/θ − n (4.14) Note that an alternative way to write this combination of parameters is ϕ ≡ (A−δ−n)−γ , where γ is the constant growth rate of per capita consumption, given by equation (4.9).
+
+Condition (4.12) implies ϕ > 0.
+
+If we substitute for k(t) from equation (4.13) into the transversality condition in equa-tion (4.10), we get lim t→∞{constant + [c(0)/ϕ] · e −ϕt} = 0 Since c(0) is f i nite and ϕ > 0, the second term inside the square brackets converges toward zero. Hence, the transversality condition requires the constant to be zero. Equations (4.11) and (4.13) therefore imply3 c(t) = ϕ · k(t) (4.15) ˙k/k = ˙ c/c = (1/θ) · (A − δ − ρ) (4.16) Since y = Ak, it also follows that ˙ y/y =˙k/k = ˙ c/c. Thus the model has no transitional dynamics: the variables k(t), c(t), and y(t) begin at the values k(0), c(0) = ϕ · k(0), and 2. See the appendix on mathematics for a discussion of this kind of f i rst-order, linear differential equation.
+
+3. Note that this model yields a closed-form policy function for c.
+
+One-Sector Models of Endogenous Growth 209 y(0) = A · k(0), respectively, and all three variables then grow at the constant rate (1/θ) · (A − δ − ρ).
+
+In the AK model, changes in the underlying parameters can affect levels and growth rates of variables. For example, a permanent increase in the rate of population growth, n, does not affect the per capita growth rates shown in equation (4.16), but it reduces the level of per capita consumption (see equations [4.14] and [4.15]). Changes in A, ρ, and θ affect the levels and growth rates of c and k.
+
+The gross saving rate is given by s = (˙K + δK)/Y = (1/A) · (˙k/k + n + δ) = ?
+
+A − ρ + θn + (θ − 1) · δ θ A ?
+
+(4.17) where˙k/k = (1/θ) · (A − δ − ρ). Thus the gross saving rate is constant and, aside from n, depends on the same parameters that inf l uence the per capita growth rate.
+
+4.1.5 The Phase Diagram We can analyze the dynamic behavior of the economy by constructing a phase diagram in k and c. Note that, because A > ρ + δ, consumption growth is always positive—therefore, a ˙ c = 0 schedule does not exist. Thus the arrows in the phase diagram displayed in f i gure 4.1 point north. We can use equation (4.8) to f i nd that the ˙k = 0 schedule is a straight line k˙ ? 0, c ? (A ? ? ? n)k k c “Saddle Path,” c ? (A ? ? ? n ? ?)k Figure 4.1 Phase diagram for the AK model. The ˙k = 0 schedule is a straight line through the origin with slope A − δ − n > 0. The arrows to the right of this line point east, and the opposite is true to the left. Because A > ρ + δ, consumption growth is always positive, so the ˙ c = 0 schedule does not exist and arrows always point north. Equation (4.15) suggests that the saddle path is another straight line with slope ϕ = (A −δ −n)−γ , which is smaller than the slope of the˙k = 0 schedule. The transversality condition and the Euler equation ensure that the economy is always on the saddle path so that the ratio of consumption to capital is always constant.
+
+210 Chapter 4 through the origin with slope A − δ − n. The arrows to the right of this line point east, and the opposite holds to the left. Equation (4.15) suggests that the path that the economy takes (the “saddle path”) is another straight line with slope ϕ. Notice that, since ϕ = (A − δ − n) −γ , the slope of the stable arm is smaller than the slope of the˙k = 0 schedule. Given k(0), if initial consumption is chosen above the saddle path, the economy will crash into the vertical axis. This outcome violates the Euler equation (an analogous argument was discussed in chapter 2 for the neoclassical model). If the initial consumption is chosen below the saddle path, c and k grow without bound. Along this path, the capital stock k grows faster than c, and the transversality condition is violated. The only choice that satisf i es all f i rst-order conditions (including transversality) is the saddle path, which entails a constant value of c/k.
+
+4.1.6 Determinants of the Growth Rate A striking difference between the AK model and the neoclassical growth model of chapter 2 concerns the determination of the long-run per capita growth rate. In the AK model, the long-run growth rate (which equals the short-run growth rate) depends in equation (4.16) on the parameters that determine the willingness to save and the productivity of capital.
+
+Lower values of ρ and θ, which raise the willingness to save, imply a higher per capita growth rate in equation (4.16) and a higher saving rate in equation (4.17). An improvement in the level of technology, A, which raises the marginal and average products of capital, also raises the growth rate and alters the saving rate. In a later section of this chapter, we show that changes in various kinds of government policies amount to shifts in A; that is, we can generalize the interpretation of the parameter A to go beyond literal differences in the level of the production function.
+
+In contrast to the effects on long-run growth in the AK model, the Ramsey model of chapter 2 implies that the long-run per capita growth rate is pegged at the value x, the exogenous rate of technological change. A greater willingness to save or an improvement in the level of technology shows up in the long run as higher levels of capital and output per effective worker but in no change in the per capita growth rate.
+
+The different results ref l ect the workings of diminishing returns to capital in the neoclas-sical model, and the absence of these diminishing returns in the AK model. Quantitatively, the extent of the difference depends on how rapidly diminishing returns set in, a character-istic that determines how quickly economies converge to the steady state in the neoclassical model. If diminishing returns set in slowly, the convergence period is long. In this case, shifts in the willingness to save or the level of technology affect the growth rate for a long time in the neoclassical model, even if not forever. Thus, the distinction between the neo-classical and AK models is substantial if convergence is rapid, but becomes less serious if—as seems to be the case—convergence occurs slowly. If convergence is extremely slow, the growth effects that appear in the AK model provide a satisfactory approximation to the effects on the growth rate over a long interval in the neoclassical model.
+
+One-Sector Models of Endogenous Growth 211 We showed in chapter 2 that the outcomes in the Ramsey model were Pareto optimal.
+
+We demonstrated this result by showing that the outcomes coincided with those that would be generated by a hypothetical social planner who had the same form of objective func-tion as the representative household. It is straightforward to follow the same procedure here to prove that the equilibrium in the AK model is Pareto optimal.4This result makes sense because the elimination of diminishing returns in the production function—that is, the replacement of the neoclassical production function by the AK form—does not introduce any sources of market failure into the model.
+
+4.2 A One-Sector Model with Physical and Human Capital We mentioned before that one interpretation of the AK model is that capital should be viewed broadly to include physical and human components. We now work out a simple model with human capital that makes this interpretation explicit.
+
+Assume that the inputs to the production function are physical and human capital, K and H:
+
+Y = F(K, H) (4.18) where F(·) exhibits the standard neoclassical properties, including constant returns to scale in K and H. This production function is similar to one used in chapter 3, except that we previously assumed a Cobb–Douglas form with diminishing returns to scale in K and H.
+
+We can use the condition of constant returns to scale to write the production function in an intensive form:
+
+Y = K · f (H/K) (4.19) where f ?(H/K) > 0.
+
+Output can be used on a one-for-one basis for consumption, for investment in physical capital, or for investment in human capital. Hence, we assume that the one-sector technol-ogy applies to the production of human capital—that is, to education—as well as to the production of consumables and physical capital. (We introduce a separate education sector in chapter 5.) The stocks of physical and human capital depreciate at the rates δKand δH, respectively. We assume that population, L, is constant, so that changes in H ref l ect only the net investment in human capital.
+
+Let RKand RHbe the rental prices paid by competitive f i rms for the use of the two types of capital. In the absence of barriers to entry, competition among f i rms will drive 4. The planner chooses the path of c to maximize U in equation (4.1), subject to equation (4.8), c(t) ≥ 0, and the given initial value k(0).
+
+212 Chapter 4 prof i ts down to zero. Prof i t maximization and this zero-prof i t condition then imply (as in the discussion of chapter 2) that the marginal product of each input equals its rental price:
+
+∂Y/∂K = f (H/K) − (H/K) · f ?(H/K) = RK (4.20) ∂Y/∂ H = f ?(H/K) = RH Since the two types of capital are perfectly substitutable with each other and with consum-ables on the production side, the price of each type of capital would be f i xed at unity.5Hence, the rates of return to owners of capital are RK− δKand RH− δH, respectively, and each rate of return must be equal in equilibrium to the interest rate, r. If we use equation (4.20) and rearrange terms, this equalization of rates of return implies f (H/K) − f ?(H/K) · (1 + H/K) = δK − δH (4.21) This condition determines a unique, constant value of H/K.6 If we def i ne A ≡ f (H/K), a constant, then equation (4.19) implies Y = AK. Thus this model with two types of capital is essentially the same as the AK model that we analyzed in the previous section. We know from that analysis that the equilibrium features constant and equal growth rates of C, K, and Y. (These growth rates equal the per capita growth rates because L is constant.) Since H/K is f i xed, H grows at the same rate as the other variables.
+
+The main conclusion from this simple case is that we can think of K as a proxy for a composite of capital goods that includes physical and human components. If we regard constant returns to the two kinds of capital as plausible, then the AK model may be a satisfactory representation of this broader model. We consider in chapter 5 some additional effects that arise when we drop the assumptions of the one-sector model and assume instead that the production function for education differs from that for goods.
+
+4.3 Models with Learning by Doing and Knowledge Spillovers 4.3.1 Technology The key to endogenous growth in the AK model is the absence of diminishing returns to the factors that can be accumulated. A number of authors—including Frankel (1962), 5. This result applies if the constraint of nonnegative gross investment in each type of capital is nonbinding or if units of old capital can, unrealistically, be consumed or converted into the other type of capital. We take explicit account of these kinds of constraints in chapter 5.
+
+6. The expression on the left-hand side of equation (4.21) can be shown readily to be monotonically increasing in H/K. Moreover, this expression ranges from −∞ to +∞ as H/K goes from 0 to ∞. It follows that the solution for H/K exists and is unique.
+
+One-Sector Models of Endogenous Growth 213 Griliches (1979), Romer (1986), and Lucas (1988)—have constructed models of endoge-nous growth in which spillover effects play a central role. For reasons probably related to timing, the Romer analysis has exerted the greatest inf l uence.7He used Arrow’s (1962) setup to eliminate the tendency for diminishing returns to capital accumulation by assuming that knowledge creation was a side product of investment. A f i rm that increases its phys-ical capital learns simultaneously how to produce more eff i ciently. This positive effect of experience on productivity is called learning by doing or, in this case, learning by investing.
+
+We can illustrate the possibilities by considering a neoclassical production function with labor-augmenting technology for f i rm i, Yi= F(Ki, AiLi) (4.22) where Liand Kiare the conventional inputs, and Aiis the index of knowledge available to the f i rm. The function F(·) satisf i es the neoclassical properties that we detailed in chap-ter 1 (equations [1.5a]–[1.5c]): positive and diminishing marginal products of each input, constant returns to scale, and the Inada conditions. Technology is assumed to be labor aug-menting so that a steady state exists when Aigrows at a constant rate. Unlike chapter 2, however, we do not assume here that Aigrows exogenously at the rate x. Furthermore, for reasons that will become apparent later, we assume that the aggregate labor force, L, is constant.
+
+We follow Arrow (1962), Sheshinski (1967), and Romer (1986) and make two assump-tions about productivity growth. First, learning by doing works through each f i rm’s net investment. Specif i cally, an increase in a f i rm’s capital stock leads to a parallel increase in its stock of knowledge, Ai. This process ref l ects Arrow’s idea that knowledge and pro-ductivity gains come from investment and production, a formulation that was inspired by the empirical observation of large positive effects of experience on productivity in airframe manufacturing, shipbuilding, and other areas (see Wright, 1936; Searle, 1946; Asher, 1956;
+
+and Rapping, 1965). This idea is supported more broadly by Schmookler’s (1966) evidence that patents—a proxy for learning—closely follow investment in physical capital.
+
+The second key assumption is that each f i rm’s knowledge is a public good that any other f i rm can access at zero cost. In other words, once discovered, a piece of knowledge spills over instantly across the whole economy. This assumption implies that the change in each f i rm’s technology term, ˙ Ai, corresponds to the economy’s overall learning and is therefore proportional to the change in the aggregate capital stock, ˙ K.
+
+7. Cannon (2000) says in this respect: “Frankel (1962) anticipates ideas in use in the modern literature and deserves wider recognition. Why the paper was ignored at the time remains a bit of a puzzle and perhaps serves as a demonstration of the role of chance in the research and growth processes.”
+
+214 Chapter 4 If we combine the assumptions of learning by doing and knowledge spillovers, we can replace Aiby K in equation (4.22) and write the production function for f i rm i as8 Yi= F(Ki, K Li) (4.23) If K and Liare constant, each f i rm faces diminishing returns to Kias in the neoclassical model of chapter 2. However, if each producer expands Ki, then K rises accordingly and provides a spilloverbenef i tthatraisestheproductivityofall f i rms.Moreover,equation(4.23) is homogeneous of degree one in Kiand K for given Li; that is, there are constant returns to capital at the social level—when Kiand K expand together for f i xed L. This constancy of the social returns to capital will yield endogenous growth.
+
+The essence of the Romer analysis leading up to equation (4.23) appeared in the Frankel (1962) paper, which assumed that an economy-wide productivity factor (which he called the “development modif i er”) equaled the sum of the capital stocks employed by each f i rm.
+
+However, Frankel did not detail the nature of the spillover process; in particular, he did not focus on the role of knowledge.
+
+In the Griliches (1979) version of equation (4.23), Kirepresents f i rm i’s specif i c knowl-edge capital, whereas K (modeled again as the sum of the Ki) is the aggregate level of knowl-edge in an industry. The only substantive difference from Romer (1986) is that Griliches focused on R&D investments as relevant to the expansion of knowledge, whereas Romer looked at overall net investment.
+
+In the Lucas (1988) story, knowledge is thought to be created and transmitted through human capital. Therefore, Kirefers to a f i rm’s employment of human capital and K to the aggregate level of human capital in an industry or country. In this case, the spillover effects involve interactions with smart people. One important issue, discussed later, is whether the spillovers involve the total or average level of human capital.
+
+On one level, the spillover assumption is natural because knowledge has a nonrival char-acter: if one f i rm uses an idea, it does not prevent others from using it. On another level, f i rms have incentives to maintain secrecy over their discoveries as well as formal patent protection for inventions. Knowledge about productivity improvements would therefore leak out only gradually, and innovators would retain competitive advantages for some time.
+
+In fact, in a decentralized setup, this individual advantage is essential to motivate invest-ments, such as Griliches’s (1979) outlays on R&D, that are specif i cally directed at making discoveries. The type of interaction among f i rms that arises in this setup cannot, however, be adequately described by standard models of perfect competition, and we postpone a consideration of alternative approaches until chapters 6 and 7. In this section, we make the extreme assumption that all discoveries are unintended by-products of investment and that 8. We neglect any baseline knowledge that producers have when no capital has ever been produced.
+
+One-Sector Models of Endogenous Growth 215 these discoveries immediately become common knowledge. This specif i cation allows us to retain the framework of perfect competition, although the outcomes will turn out not to be Pareto optimal.
+
+The assumption here is that the spillovers of knowledge operate at the level of the overall economy. Alternative assumptions are that the spillovers apply to an industry, to a limited geographical area, within a particular political jurisdiction, and so on. The extent to which these spillovers apply will be crucial for the model’s empirical implementation.
+
+A f i rm’s prof i t can be written as Li· [F(ki, K) − (r + δ) · ki− w] (4.24) where r + δ is the rental price of capital and w is the wage rate. We assume, as usual, that each competitive f i rm takes these factor prices as given. We now also make the parallel assumption that each f i rm is small enough to neglect its own contribution to the aggregate capital stock and, therefore, treats K as given. Prof i t maximization and the zero-prof i t condition (as detailed in chapter 2) then imply ∂yi/∂ki= F1(ki, K) =r + δ (4.25) ∂Yi/∂Li= F(ki, K) − ki· F1(ki, K) = w where F1(·)—the partial derivative of F(ki, K) with respect to its f i rst argument, ki—is the private marginal product of capital. In particular, this marginal product neglects the contribution of kito K and, hence, to aggregate knowledge.
+
+In equilibrium, all f i rms make the same choices, so that ki= k and K = kL apply. Since F(ki, K) is homogeneous of degree one in kiand K, we can write the average product of capital as F(ki, K)/ki= f (K/ki) = f (L) (4.26) where f (L)—the function for the average product of capital—satisf i es f ?(L) > 0 and f ??(L) < 0. Note that this average product is invariant with k, because the learning-by-doing and spillover effects eliminate the tendency for diminishing returns. The average product is, however, increasing in the size of the labor force, L. This last property is unusual and leads to scale effects that we discuss later.
+
+The private marginal product of capital can be expressed from equation (4.26) as F1(ki, K) = f (L) − L · f ?(L) (4.27) Hence, the private marginal product of capital is less than the average product, f (L), and is invariant with k. Equation (4.27) implies also that the private marginal product of capital is increasing in L (because f ??(L) < 0).
+
+216 Chapter 4 4.3.2 Equilibrium We still assume a closed economy in which inf i nite-lived households maximize utility in the usual way. Therefore, the budget constraint is given by equation (4.2), the growth rate of per capita consumption by equation (4.4), and the transversality condition by equation (4.5).
+
+If we use the condition r = F1(ki, K) − δ and the form for the private marginal product of capital from equation (4.27), then equation (4.4) can be rewritten as ˙ c/c = (1/θ) · [ f (L) − L · f ?(L) − δ − ρ] (4.28) As in the AK model, this growth rate is constant (as long as L is constant). We assume that the parameters are such that the growth rate is positive but not large enough to yield inf i nite utility:
+
+f (L) − L · f ?(L) > ρ + δ > (1 − θ) · [ f (L) − L · f?(L) − δ − ρ]/θ + δ (4.29) This condition corresponds to equation (4.12) in the AK model.
+
+If we substitute a = k and the f i rst-order conditions from equation (4.25) into the budget constraint of equation (4.2), we get the accumulation equation for k:
+
+˙k = f (L) · k − c − δk (4.30) If we use this equation along with the transversality condition, we can show that the model has no transitional dynamics: the variables k and y always grow at the rate shown for ˙ c/c in equation (4.28). Since the analysis is essentially the same as that for the AK model, we leave this demonstration as an exercise.
+
+4.3.3 Pareto Nonoptimality and Policy Implications To see whether the outcomes are Pareto optimal, we can follow our usual practice of comparing the decentralized solution with the results from the social planner’s problem.
+
+The planner maximizes the utility shown in equation (4.1) (with n assumed here to be zero), subject to the accumulation constraint in equation (4.30). The key aspect of this optimization is that, unlike an individual producer, the planner recognizes that each f i rm’s increase in its capital stock adds to the aggregate capital stock and, hence, contributes to the productivity of all other f i rms in the economy. In other words, the social planner internalizes the spillovers of knowledge across the f i rms.
+
+To f i nd the optimal choices of c and k, set up the Hamiltonian, J = e−ρt· (c1−θ− 1)/(1 − θ) + ν · [ f (L) · k − c − δk] The optimization involves the standard f i rst-order conditions, Jc= 0 and ˙ ν = −Jk, and the transversality condition, limt→∞νk = 0. We can manipulate the f i rst-order conditions in One-Sector Models of Endogenous Growth 217 the usual way to derive the condition for the growth rate of c:
+
+˙ c/c (planner) = (1/θ) · [ f (L) − δ − ρ] (4.31) The social planner sets the growth rate of consumption in accordance with the average product of capital, f (L), whereas the decentralized solution shown in equation (4.28) relates the growth rate to the private marginal product of capital, f (L) − L · f ?(L). Since this private marginal product falls short of the average product, growth is too low in the decentralized equilibrium.
+
+In the present model, the learning-by-doing and spillover effects exactly offset the di-minishing returns that face an individual producer. Hence, the returns are constant at the social level, and the social marginal product of capital equals the average product, f (L).
+
+Since the social planner internalizes the spillovers, this social marginal product appears as a determinant of the growth rate in equation (4.31). The decentralized solution in equa-tion (4.28) dictates a lower growth rate because the individual producers do not internalize the spillovers; that is, they base decisions on the private marginal product, f (L)− L · f ?(L), which falls short of the social marginal product.
+
+The social optimum can be attained in a decentralized economy by subsidizing purchases of capital goods (an investment-tax credit). Alternatively, the government can generate the optimum by subsidizing production. These subsidies work in the model because they raise the private rate of return to investment and thereby tend to eliminate the excess of social over private returns. Of course, to avoid other distortions, the subsidies on capital or production would have to be f i nanced with a lump-sum tax. These kinds of taxes are normally diff i cult to f i nd, but in the current model—which contains no labor/leisure choice—a consumption tax at a constant rate would amount to a lump-sum tax. This kind of tax was explored in chapter 3.
+
+4.3.4 A Cobb–Douglas Example If the production function in equation (4.23) takes the Cobb–Douglas form, output for f i rm i is given by Yi= A · (Ki)α· (K Li)1−α (4.32) where 0 < α < 1. If we substitute yi= Yi/Li, ki= Ki/Li, and k = K/L, and then set yi= y and ki= k, the average product of capital is y/k = f (L) = AL1−α (4.33) which is a special case of equation (4.26). Note that equation (4.33) satisf i es the general properties that y/k is invariant with k and increasing in L.
+
+218 Chapter 4 Wecandeterminetheprivatemarginalproductofcapitalbydifferentiatingequation(4.32) with respect to Ki, while holding f i xed K and L. If we then substitute ki= k, the result is ∂Yi/∂Ki= AαL1−α (4.34) a special case of equation (4.27). In accordance with the general properties discussed before, the private marginal product of capital in equation (4.34) is invariant with k, increasing in L, and less than the average product shown in equation (4.33) (because 0 < α < 1).
+
+If we substitute from equation (4.34) into equation (4.28), we f i nd that the decentralized growth rate is given by9 ˙ c/c = (1/θ) · (AαL1−α− δ − ρ) (4.35) Substitution from equation (4.33) into equation (4.31) gives the social planner’s growth rate as ˙ c/c (planner) = (1/θ) · (AL1−α− δ − ρ) (4.36) Since α < 1, the decentralized growth rate is lower than the planner’s growth rate.
+
+The social optimum can be attained in the decentralized economy by introducing an investment-tax credit at the rate 1 − α and f i nancing it with a lump-sum tax. If buyers of capital pay only the fraction α of the cost, the private return on capital corresponds to the social return. We can then show that the decentralized choices coincide with those of the social planner. Alternatively, the government could generate the same outcome by subsidizing production at the rate (1 − α)/α.
+
+4.3.5 Scale Effects The model implies a scale effect in that an expansion of the aggregate labor force, L, raises the per capita growth rate for the decentralized economy in equation (4.28) and for the social planner in equation (4.31). These results ref l ect, respectively, the positive effect of L on the private marginal product of capital, f (L) − L · f ?(L), in equation (4.27) and on the average product, f (L), in equation (4.26). Moreover, if the labor force grows over time, the per capita growth rates would increase over time.10 9. We assume that the parameters allow for positive growth and bounded utility; hence, AαL1−α> ρ + δ > (1 − θ) · (AαL1−α− δ − ρ)/θ + δ a result that specializes equation (8.23).
+
+10. This result follows at once for ˙ c/c, but˙k/k and ˙ y/y would not correspond to ˙ c/c in an environment of growing L. Also, if L rises enough, the condition for bounded utility in equation (8.23) must eventually be violated if θ < 1.
+
+One-Sector Models of Endogenous Growth 219 If we can identify L with the aggregate labor force of a country, the prediction is that countries with more workers tend to grow faster in per capita terms. The empirical results discussed in chapter 12 for a large number of countries in the post–World War II period indicate that the growth rate of per capita GDP bears little relation to the country’s level of population. (These results apply when the initial level of per capita GDP, the average person’s education, and some other variables are held constant.) Thus these f i ndings do not support a scale effect in country size.
+
+It is possible that the scale variable for spillovers, L, does not relate closely to aggregates measured at the country level. The relevant scale can, for example, be larger than the size of the domestic economy if producers benef i t from knowledge accumulated in other countries. Kremer (1993) argues that the correct scale variable might be world population, and he provides some evidence from the long-run history that world population is positively correlated with productivity growth. Alternatively, if the free transmission of ideas is limited to close neighbors (either geographically or in terms of industry), the appropriate scale may be smaller than the home economy. These caveats blur the empirical implications of the spillovers model and make diff i cult the testing of this model with macroeconomic data.
+
+We derived the scale effect from a model that assumed learning by doing and spillovers of knowledge. These elements generate a scale effect on growth rates because they imply constant returns to K and increasing returns to K and L at the social level. A similar scale effect would result if this pattern of factor returns prevailed for other reasons. The learning-by-doing/spillovers model is special, however, in that it also implies constant returns to scale in the factors, Kiand Li, that are chosen by an individual f i rm. If increasing returns applied at the level of a f i rm, the model would be inconsistent with perfect competition, because f i rms would have an incentive to grow arbitrarily large in order to benef i t from the scale economy. We avoided this outcome by assuming that a f i rm’s technology depended on the aggregate capital stock, K, and that each f i rm neglected its own contribution to this aggregate. This specif i cation allows us to maintain the assumption of perfect competition, but it also implies that the competitive equilibrium is not Pareto optimal.
+
+One way to eliminate the scale effect is to argue that the term Aiin equation (4.22) depends on the economy’s average capital per worker, K/L, rather than the aggregate capital stock, K. This alternative specif i cation was used by Frankel (1962) in his main analysis but without much discussion. Lucas (1988) also uses this specif i cation, because he assumes that the learning and spillovers involve human capital and that each producer benef i ts from the average level of human capital in the economy, rather than the aggregate. Thus, instead of thinking about the accumulated knowledge or experience of other producers, we have to think here about the benef i t from interacting (freely) with the average person, who possesses the average level of skills and knowledge. The Lucas formulation might arise if 220 Chapter 4 we thought that the presence of stupid people makes it diff i cult to identify and use the good ideas provided by smart people.
+
+To analyze this model, we can let Ai= K/L in equation (4.22) and then proceed as before. The only difference in the results is that the average product of capital and the private marginal product of capital no longer depend on L. For example, in the Cobb– Douglas case, the average product in equation (4.33) becomes A rather than AL1−α, and the private marginal product in equation (4.34) becomes Aα rather than AαL1−α. Since the formal analysis is the same as before, we leave the proof of these results as an exercise.
